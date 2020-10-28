@@ -29,6 +29,9 @@
         "prettier"
     ],
     "rules": {
+      "react/jsx-curly-newline": "off",
+      "no-confusing-arrow": "off",
+      "no-unused-vars": "warn",
       "no-unused-expressions": "off",
       "@typescript-eslint/ban-types": "off",
       "operator-linebreak": "off",
