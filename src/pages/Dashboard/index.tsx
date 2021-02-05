@@ -45,7 +45,7 @@ const Dashboard: React.FC = () => {
             <h1>Horários agendados</h1>
             <p>
               <span>Hoje</span>
-              <span>Dia 06</span>
+              <span>{selectDate.getDay()}</span>
               <span>Segunda-feira</span>
             </p>
 
